@@ -21,7 +21,7 @@
   }
 
   [dir="ltr"] body {
-    font-family: 'Playfair Display', 'Tajawal', serif;
+    font-family: 'Inter', 'Tajawal', sans-serif;
   }
 
   [dir="ltr"] h1,
@@ -29,6 +29,16 @@
   [dir="ltr"] h3,
   [dir="ltr"] h4 {
     font-family: 'Playfair Display', serif;
+  }
+
+  [dir="ltr"] p,
+  [dir="ltr"] span,
+  [dir="ltr"] a,
+  [dir="ltr"] label,
+  [dir="ltr"] button,
+  [dir="ltr"] input,
+  [dir="ltr"] textarea {
+    font-family: 'Inter', sans-serif;
   }
 
   [dir="rtl"] h1,

@@ -21,6 +21,7 @@ export default {
       fontFamily: {
         arabic: ['Tajawal', 'sans-serif'],
         display: ['Playfair Display', 'serif'],
+        body: ['Inter', 'sans-serif'],
       },
       backgroundImage: {
         'gold-gradient': 'linear-gradient(135deg, #C9A96E 0%, #D4BA8A 50%, #A8884F 100%)',

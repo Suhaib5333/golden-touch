@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
-import { Instagram, MapPin, Clock, MessageCircle } from 'lucide-react';
+import { Instagram, MapPin, Clock } from 'lucide-react';
+import WhatsAppIcon from '../ui/WhatsAppIcon';
 
 export default function Footer() {
   const { t, i18n } = useTranslation();
@@ -14,9 +15,11 @@ export default function Footer() {
           {/* Brand */}
           <div className="lg:col-span-1">
             <div className="flex items-center gap-3 mb-4">
-              <div className="w-10 h-10 rounded-full bg-brand-gold/20 border border-brand-gold/30 flex items-center justify-center">
-                <span className="text-brand-gold font-display text-sm font-bold">GT</span>
-              </div>
+              <img
+                src="/logo.png"
+                alt="Golden Touch"
+                className="w-10 h-10 rounded-full object-cover"
+              />
               <span className="text-white font-bold text-lg">
                 {i18n.language === 'ar' ? 'اللمسة الذهبية' : 'Golden Touch'}
               </span>
@@ -62,12 +65,12 @@ export default function Footer() {
               </li>
               <li>
                 <a
-                  href="https://wa.me/97300000000"
+                  href="https://wa.me/97336855778"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-2 text-sm text-white/60 hover:text-green-400 transition-colors"
                 >
-                  <MessageCircle size={16} className="text-green-400 shrink-0" />
+                  <WhatsAppIcon size={16} className="text-green-400 shrink-0" />
                   <span>WhatsApp</span>
                 </a>
               </li>
@@ -79,7 +82,9 @@ export default function Footer() {
             <h4 className="text-brand-gold font-bold mb-4">{t('footer.follow_us')}</h4>
             <div className="flex gap-3">
               <a
-                href="#"
+                href="https://www.instagram.com/golden_touch_bh/"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="w-10 h-10 rounded-full bg-white/5 border border-white/10 flex items-center justify-center hover:bg-brand-gold/20 hover:border-brand-gold/30 transition-all duration-300"
               >
                 <Instagram size={18} className="text-white/70" />

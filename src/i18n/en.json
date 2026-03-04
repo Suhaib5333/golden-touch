@@ -3,7 +3,8 @@
     "home": "Home",
     "about": "About Us",
     "products": "Products",
-    "contact": "Contact"
+    "contact": "Contact",
+    "cart": "Cart"
   },
   "hero": {
     "title": "Golden Touch",
@@ -27,7 +28,7 @@
     "bags": "Bags",
     "bags_desc": "Traditional bags embroidered with names and designs",
     "accessories": "Accessories",
-    "accessories_desc": "Unique personalized accessories for children"
+    "accessories_desc": "Unique personalized patches, keychains, and embroidered accessories for children"
   },
   "why_us": {
     "label": "Why Us",
@@ -43,7 +44,13 @@
   },
   "gallery": {
     "label": "Our Work",
-    "title": "From Our Creations"
+    "title": "From Our Creations",
+    "item_1": "Embroidered Dishdasha",
+    "item_2": "Calligraphy Dishdasha",
+    "item_3": "Festival Bag",
+    "item_4": "Sederi Vest",
+    "item_5": "Leather Pouch",
+    "item_6": "Leather Tags"
   },
   "cta_banner": {
     "title": "Want a custom design for your child?",
@@ -82,7 +89,8 @@
     "filter_accessories": "Accessories",
     "coming_soon": "Coming Soon",
     "coming_soon_desc": "We're adding new products. Stay tuned!",
-    "inquire": "Inquire on WhatsApp"
+    "inquire": "Inquire on WhatsApp",
+    "add_to_cart": "Add to Cart"
   },
   "contact_page": {
     "hero_title": "Contact Us",
@@ -99,6 +107,37 @@
     "location_desc": "Kingdom of Bahrain",
     "hours_title": "Working Hours",
     "hours_desc": "Saturday - Thursday: 9 AM - 9 PM"
+  },
+  "cart": {
+    "title": "Shopping Cart",
+    "empty": "Your cart is empty",
+    "empty_desc": "Browse our products and add items to your cart",
+    "browse": "Browse Products",
+    "remove": "Remove",
+    "quantity": "Qty",
+    "subtotal": "Subtotal",
+    "total": "Total",
+    "checkout": "Proceed to Checkout",
+    "continue_shopping": "Continue Shopping",
+    "bhd": "BHD",
+    "added": "Added to cart!"
+  },
+  "checkout": {
+    "title": "Checkout",
+    "order_summary": "Order Summary",
+    "payment_method": "Payment Method",
+    "apple_pay": "Pay with Apple Pay",
+    "benefit_pay": "Pay with BenefitPay",
+    "total": "Total",
+    "items": "items",
+    "bhd": "BHD",
+    "back_to_cart": "Back to Cart"
+  },
+  "benefit_pay": {
+    "title": "BenefitPay",
+    "coming_soon": "BenefitPay integration coming soon",
+    "description": "This payment gateway is being set up. Please contact us on WhatsApp for now.",
+    "back": "Back to Checkout"
   },
   "footer": {
     "description": "Handcrafted embroidered traditional clothing for children with a golden touch",
