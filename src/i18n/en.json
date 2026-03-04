@@ -1,0 +1,111 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About Us",
+    "products": "Products",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Golden Touch",
+    "subtitle": "Handcrafted traditional clothing for your little ones with a modern twist",
+    "cta": "Browse Products",
+    "secondary_cta": "Contact Us"
+  },
+  "about_preview": {
+    "label": "Our Story",
+    "title": "Authentic Bahraini Craftsmanship",
+    "description": "At Golden Touch, we believe every child deserves to wear something that reflects their identity and heritage. We offer handcrafted traditional clothing embroidered with children's names and unique designs that blend authenticity with modernity.",
+    "read_more": "Read More"
+  },
+  "categories": {
+    "label": "Collections",
+    "title": "Discover Our Collections",
+    "boys": "Boys Collection",
+    "boys_desc": "Embroidered traditional thobes and dishdashas for boys",
+    "girls": "Girls Collection",
+    "girls_desc": "Decorated traditional dresses and jalabiyas for girls",
+    "bags": "Bags",
+    "bags_desc": "Traditional bags embroidered with names and designs",
+    "accessories": "Accessories",
+    "accessories_desc": "Unique personalized accessories for children"
+  },
+  "why_us": {
+    "label": "Why Us",
+    "title": "What Makes Golden Touch Special",
+    "handmade": "Handmade",
+    "handmade_desc": "Every piece is carefully handcrafted with precision",
+    "personalized": "Personalized",
+    "personalized_desc": "We embroider your child's name in beautiful calligraphy",
+    "heritage": "Bahraini Heritage",
+    "heritage_desc": "Designs inspired by Bahraini and Gulf traditions",
+    "quality": "Premium Quality",
+    "quality_desc": "We use the finest fabrics and threads for lasting quality"
+  },
+  "gallery": {
+    "label": "Our Work",
+    "title": "From Our Creations"
+  },
+  "cta_banner": {
+    "title": "Want a custom design for your child?",
+    "description": "Contact us on WhatsApp and we'll create a unique piece for you",
+    "button": "Chat on WhatsApp"
+  },
+  "about_page": {
+    "hero_title": "About Us",
+    "hero_subtitle": "Telling the story of heritage with a golden touch",
+    "story_label": "Our Story",
+    "story_title": "A Bahraini Dream",
+    "story_p1": "Golden Touch was born from a deep passion for Bahraini and Gulf heritage, and a desire to create traditional children's clothing that combines the beauty of the past with the elegance of the present.",
+    "story_p2": "Every piece we create carries a story. From selecting the fabric to hand embroidery, we pour our hearts into every stitch to give your children the beauty and distinction they deserve.",
+    "mission_label": "Our Mission",
+    "mission_title": "Preserving Heritage Through Creativity",
+    "mission_desc": "We strive to be the go-to destination for families seeking distinctive traditional clothing for their children, preserving cultural identity while adding a unique personal touch.",
+    "values": {
+      "title": "Our Values",
+      "authenticity": "Authenticity",
+      "authenticity_desc": "We respect our heritage and reflect it in every design",
+      "creativity": "Creativity",
+      "creativity_desc": "We create unique designs suited for every child",
+      "quality": "Excellence",
+      "quality_desc": "We maintain the highest quality standards in every piece",
+      "love": "Love",
+      "love_desc": "We craft every piece with love and exceptional care"
+    }
+  },
+  "products_page": {
+    "hero_title": "Our Products",
+    "hero_subtitle": "Discover our distinctive collection of traditional clothing and accessories",
+    "filter_all": "All",
+    "filter_boys": "Boys",
+    "filter_girls": "Girls",
+    "filter_bags": "Bags",
+    "filter_accessories": "Accessories",
+    "coming_soon": "Coming Soon",
+    "coming_soon_desc": "We're adding new products. Stay tuned!",
+    "inquire": "Inquire on WhatsApp"
+  },
+  "contact_page": {
+    "hero_title": "Contact Us",
+    "hero_subtitle": "We're happy to serve you and answer all your inquiries",
+    "whatsapp_title": "Chat on WhatsApp",
+    "whatsapp_desc": "The fastest way to reach us",
+    "whatsapp_button": "Start Chat",
+    "form_title": "Send Us a Message",
+    "form_name": "Full Name",
+    "form_email": "Email Address",
+    "form_message": "Your Message",
+    "form_submit": "Send Message",
+    "location_title": "Our Location",
+    "location_desc": "Kingdom of Bahrain",
+    "hours_title": "Working Hours",
+    "hours_desc": "Saturday - Thursday: 9 AM - 9 PM"
+  },
+  "footer": {
+    "description": "Handcrafted embroidered traditional clothing for children with a golden touch",
+    "quick_links": "Quick Links",
+    "contact_us": "Contact Us",
+    "follow_us": "Follow Us",
+    "rights": "All rights reserved",
+    "brand": "Golden Touch"
+  }
+}
