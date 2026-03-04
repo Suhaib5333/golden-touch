@@ -109,11 +109,11 @@ export default function Checkout() {
                   <motion.button
                     whileHover={{ scale: 1.02 }}
                     whileTap={{ scale: 0.98 }}
-                    className="w-full flex items-center justify-center gap-3 bg-black text-white px-6 py-4 rounded-xl font-bold text-sm transition-all duration-300 hover:shadow-lg"
+                    className="w-full flex items-center justify-center gap-4 bg-black text-white px-8 py-5 rounded-xl font-bold text-base transition-all duration-300 hover:shadow-lg"
                   >
-                    <svg width="20" height="24" viewBox="0 0 20 24" fill="currentColor">
-                      <path d="M15.07 12.844c-.029-2.985 2.436-4.42 2.547-4.49-1.387-2.028-3.548-2.306-4.316-2.339-1.835-.186-3.587 1.083-4.52 1.083-.946 0-2.405-1.057-3.953-1.029-2.034.03-3.91 1.184-4.957 3.005-2.117 3.672-.541 9.112 1.52 12.094 1.008 1.459 2.21 3.097 3.79 3.039 1.52-.061 2.095-.984 3.933-.984 1.825 0 2.371.984 3.992.953 1.637-.028 2.676-1.486 3.672-2.95 1.158-1.693 1.635-3.332 1.664-3.418-.036-.016-3.19-1.224-3.222-4.858zM12.067 3.952c.837-1.015 1.402-2.424 1.247-3.832-1.206.05-2.67.804-3.535 1.818-.777.9-1.458 2.338-1.275 3.717 1.346.104 2.72-.684 3.563-1.703z" />
-                    </svg>
+                    <span className="h-10 w-10 flex items-center justify-center shrink-0">
+                      <img src="/apple_logo.png" alt="Apple" className="h-7 shrink-0 invert" />
+                    </span>
                     {t('checkout.apple_pay')}
                   </motion.button>
 
@@ -121,12 +121,11 @@ export default function Checkout() {
                   <motion.div whileHover={{ scale: 1.02 }} whileTap={{ scale: 0.98 }}>
                     <Link
                       to="/benefit-pay"
-                      className="w-full flex items-center justify-center gap-3 bg-[#D71E28] text-white px-6 py-4 rounded-xl font-bold text-sm transition-all duration-300 hover:shadow-lg hover:bg-[#b8191f]"
+                      className="w-full flex items-center justify-center gap-4 bg-[#D71E28] text-white px-8 py-5 rounded-xl font-bold text-base transition-all duration-300 hover:shadow-lg hover:bg-[#b8191f]"
                     >
-                      <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
-                        <rect width="24" height="24" rx="4" fill="white" />
-                        <text x="4" y="17" fontSize="12" fontWeight="bold" fill="#D71E28">BP</text>
-                      </svg>
+                      <span className="h-10 w-10 rounded-lg bg-white flex items-center justify-center shrink-0 p-1">
+                        <img src="/benefit_logo.png" alt="BenefitPay" className="w-full h-full object-contain" />
+                      </span>
                       {t('checkout.benefit_pay')}
                     </Link>
                   </motion.div>

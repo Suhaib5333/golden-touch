@@ -33,6 +33,7 @@ export default function App() {
       <BrowserRouter>
         <ScrollToTop />
         <Routes>
+          <Route path="/benefit-pay" element={<BenefitPay />} />
           <Route element={<Layout />}>
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
@@ -40,7 +41,6 @@ export default function App() {
             <Route path="/contact" element={<Contact />} />
             <Route path="/cart" element={<Cart />} />
             <Route path="/checkout" element={<Checkout />} />
-            <Route path="/benefit-pay" element={<BenefitPay />} />
           </Route>
         </Routes>
       </BrowserRouter>
